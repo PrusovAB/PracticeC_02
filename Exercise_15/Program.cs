@@ -9,25 +9,25 @@ string DayWeek(int number)
 		Console.WriteLine("Error: Введите  число от 1 до 7 и получите день недели: ");
 	}
 	if (number == 1){
-		dayWeek = "Понедельник";
+		dayWeek = "Понедельник опять работа";
 	}
 	if (number == 2){
-		dayWeek = "Вторник";
+		dayWeek = "Вторник опять работа";
 	}
 	if (number == 3){
-		dayWeek = "Среда";
+		dayWeek = "Среда опять работа";
 	}
 	if (number == 4){
-		dayWeek = "Четверг";
+		dayWeek = "Четверг опять работа";
 	}
 	if (number == 5){
-		dayWeek = "Пятница";
+		dayWeek = "Пятница опять работа, ну мб начальник отпустит пораньше";
 	}
 	if (number == 6){
-		dayWeek = "Суббота";
+		dayWeek = "Суббота выходной день";
 	}
 	if (number == 7){
-		dayWeek = "Воскрсенье";
+		dayWeek = "Воскрсенье выходной день";
 	}
 	return dayWeek;
 }
